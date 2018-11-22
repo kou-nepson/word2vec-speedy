@@ -1,7 +1,8 @@
 import sys
 sys.path.append('..')
 import numpy as np
-#from config import config
+from ch04 import config
+config.GPU = True
 import pickle
 from trainer import Trainer
 from optimizer import Adam
