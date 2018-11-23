@@ -23,7 +23,7 @@ except ImportError:
 
     word_vecs = U[:, :wordvec_size]
 
-    querys = ['you', 'year', 'car', 'toyota']
+    querys = ['you', 'year', 'cars', 'toyota']
     for query in querys:
         most_similar(query, word_to_id, id_to_word, word_vecs, top=5)
 
